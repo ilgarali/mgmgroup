@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+} 
+/*header navbar  */
+@media only screen and (max-width: 1650px) {
+    .header-top .logo img {
+        margin-right: 40px;
+    }
+    .header-top .left-head li {
+        padding-left: 30px;
+    }
+    .header-top .left-head li a {
+        font-size: 13px;
+    }
+    .header-top .right-head ul li {
+        margin-right: 7px;
+        margin-left: 7px;
+    } 
+    .dropdown-language {
+        right: 117px;
+    }
+    
+}
+
+@media only screen and (max-width: 1450px) {
+    .header-top {
+        width: 85%;
+    }
+    .header-top .logo img {
+        margin-right: 20px;
+    }
+    .header-top .left-head li {
+        padding-left: 25px;
+    }
+    .header-top .left-head li a {
+        font-size: 12px;
+    }
+    .header-top .right-head ul li {
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+    .header-top .right-head ul li a {
+        font-size: 17px;
+    }
+    .dropdown-language {
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .header-top {
+        width: 90%;
+    }
+    .header-top .logo img {
+        margin-right: 15px;
+    }
+    .header-top .left-head li {
+        padding-left: 15px;
+    }
+    .header-top .left-head li a {
+        font-size: 12px;
+    }
+    .header-top .right-head ul li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .header-top .right-head ul li a {
+        font-size: 17px;
+    }
+    .dropdown-language {
+        right: 60px;
+    }
+}
+
+
+/* bar */
+.bar{
+    display:none;
+    color:#fff;
+    font-size: 20px;
+}
+.mobil-logo{
+    display:none ;
+}
+.openmenu{
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+    .header-top .left-head {
+        display: none;
+     }
+     .logo{
+         display:none;
+     }
+     .header-top .right-head ul li a {
+        font-size: 17px;
+     }
+     .mobil-logo{
+        display: flex;
+        align-items: center;
+     }
+     .mobil-logo a img{
+         width:55px;
+     }
+     .bar{
+         display: block;
+         cursor: pointer;
+     }
+     .header-top {
+       height: 105px;
+    }
+    .right-line .number {
+       top: 25px;
+    }
+    /* openmenu */
+.openmenu{
+    display: none;
+    height:auto;
+    margin:10px auto 0px;
+    width:90%;
+    
+}
+.openmenu ul li{
+    height: 65px;
+    border-bottom:1px solid #ccc;
+    padding-top: 15px;
+}
+.openmenu ul li:nth-last-child(1){
+    border-bottom: 0px;
+}
+.openmenu ul li a{
+    font-size:1rem;
+    text-transform: uppercase;
+}
+.openmenu ul li .fa-times{
+    float:right;
+    height: 2rem;
+    width: 2rem;
+    font-size:2rem;
+}
+.openmenu li a{
+    color:#fff;
+}
+.angle{
+    border-left:1px solid #ccc ;
+    margin-left:20px;
+    padding-left:20px;
+    cursor: pointer;
+}
+.openmenu ul li a:hover{
+    color:rgb(233, 227, 227);
+    transition: 0.2s;
+}
+.limenu{
+    height: auto !important;
+     padding-bottom: 20px;
+     display: flex;
+     justify-content: space-between;
+     padding-right: 40px;
+}
+.ulmenu{
+    display: none;
+}
+.ulmenu li{
+    border-bottom: 1px solid #fbfbfb47 !important;
+}
+.ulmenu li:hover{
+    background: #176d9c;
+    transition: 0.2s;
+}
+.ulmenu li a{
+   font-size: 14px !important;
+   margin-left: 70px;
+}
+.ulmenu li{
+    height: 44px !important;
+    padding-top: 10px !important;
+}
+
+}
